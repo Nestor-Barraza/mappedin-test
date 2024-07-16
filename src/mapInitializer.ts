@@ -6,6 +6,7 @@ import { handleLocationClick, resetRoute } from './routeManager';
 import { addConnectionIcons } from './connectionManager';
 require('dotenv').config();
 
+
 const options = {
   venue: process.env.VENUE,
   clientId: process.env.CLIENT_ID,
