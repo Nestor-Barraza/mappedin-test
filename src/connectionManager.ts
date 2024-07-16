@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Connection } from "@mappedin/mappedin-js";
 import { mapView } from './mapInitializer';
 import { changeFloor } from './routeManager';

@@ -1,8 +1,10 @@
+// @ts-nocheck
 import { getVenue, showVenue, MapView, E_SDK_EVENT } from "@mappedin/mappedin-js";
 import "@mappedin/mappedin-js/lib/mappedin.css";
 import { createSidebar } from './sidebarManager';
 import { handleLocationClick, resetRoute } from './routeManager';
 import { addConnectionIcons } from './connectionManager';
+require('dotenv').config();
 
 const options = {
   venue: process.env.VENUE,

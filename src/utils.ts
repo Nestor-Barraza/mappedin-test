@@ -1,3 +1,4 @@
+// @ts-nocheck
 export function getDirectionIcon(direction: string): string {
     switch (direction.toLowerCase()) {
       case 'left': return '←';

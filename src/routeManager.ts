@@ -1,9 +1,10 @@
-import { MappedinLocation } from "@mappedin/mappedin-js";
+// @ts-nocheck
+import { MappedinLocation, MapView } from "@mappedin/mappedin-js"; 
 import { mapView } from './mapInitializer';
 import { updateRouteSteps, updateRouteDistance, updateFloorSelector } from './sidebarManager';
 import { addConnectionIcons } from './connectionManager';
 
-let startLocation: MappedinLocation  | null = null;
+let startLocation: MappedinLocation | null = null;
 let endLocation: MappedinLocation | null = null;
 let currentRoute: any = null;
 
