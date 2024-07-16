@@ -4,13 +4,13 @@ import "@mappedin/mappedin-js/lib/mappedin.css";
 import { createSidebar } from './sidebarManager';
 import { handleLocationClick, resetRoute } from './routeManager';
 import { addConnectionIcons } from './connectionManager';
-require('dotenv').config();
+
 
 
 const options = {
-  venue: process.env.VENUE,
-  clientId: process.env.CLIENT_ID,
-  clientSecret: process.env.CLIENT_SECRET
+  venue: process.env.REACT_APP_VENUE,
+  clientId: process.env.REACT_APP_CLIENT_ID,
+  clientSecret: process.env.REACT_APP_CLIENT_SECRET
 };
 
 export let mapView: MapView;
