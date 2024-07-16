@@ -5,9 +5,9 @@ import { handleLocationClick, resetRoute } from './routeManager';
 import { addConnectionIcons } from './connectionManager';
 
 const options = {
-  venue: "mappedin-demo-mall",
-  clientId: "5eab30aa91b055001a68e996",
-  clientSecret: "RJyRXKcryCMy4erZqqCbuB1NbR66QTGNXVE0x3Pg6oCIlUR1"
+  venue: process.env.VENUE,
+  clientId: process.env.CLIENT_ID,
+  clientSecret: process.env.CLIENT_SECRET
 };
 
 export let mapView: MapView;
